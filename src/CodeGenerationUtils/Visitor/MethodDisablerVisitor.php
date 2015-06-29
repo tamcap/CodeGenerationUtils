@@ -76,7 +76,7 @@ class MethodDisablerVisitor extends NodeVisitorAbstract
             new Throw_(
                 new New_(
                     new FullyQualified('BadMethodCallException'),
-                    array(new Arg(new String('Method is disabled')))
+                    array(new Arg(new String_('Method is disabled')))
                 )
             )
         );
